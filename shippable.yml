@@ -6,7 +6,6 @@ build:
     - "cd maven-demo"
   on_sucess: 
     - "mvn clean"
-    - "mvn test"
 jdk: 
   - oraclejdk8
 language: java
