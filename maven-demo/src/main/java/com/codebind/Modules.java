@@ -8,7 +8,7 @@ private ArrayList<Student> StudentList;
 private ArrayList<String> CoursesList;
 
 
-//Constructor
+//Constructor for module
 public Modules(String ModuleName, String ModuleID) {
 	this.ModuleName=ModuleName;
 	this.ModuleID=ModuleID;
@@ -58,4 +58,6 @@ public String getmoduleName() {
 public String getmoduleID() {	
 	return ModuleID;	
 }
+
+
 }
