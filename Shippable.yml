@@ -2,3 +2,15 @@ language: java
 
 jdk:
   - oraclejdk8
+  
+branches:
+    only:
+          -master
+
+build:
+        ci:
+            - cd maven-demo
+        on_sucess:
+        
+            - mvn clean
+            -mvn test
