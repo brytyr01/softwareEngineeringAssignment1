@@ -8,5 +8,5 @@
         ci:
             - cd maven-demo
         on_sucess:
-            - mvn clean
-            - mvn test   
+                    - mvn clean
+                    - mvn test
